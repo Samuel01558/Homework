@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeitsblatt Schutzhandschuhe - Quiz Formular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="pdfContent">
+        <header>
+            <h1>Arbeitsblatt: Richtig oder Falsch – Schutzhandschuhe</h1>
+        </header>
+
+        <div class="name-date">
+            <div class="field">
+                <label>Name:</label>
+                <input type="text" name="name" class="underline-input">
+            </div>
+            <div class="field">
+                <label>Datum:</label>
+                <input type="text" name="datum" class="underline-input">
+            </div>
+        </div>
+
+        <p class="instructions">Kreuzen Sie an, ob die Aussagen richtig oder falsch sind, und begründen Sie Ihre Entscheidung kurz.</p>
+
+        <form id="quizForm">
+            <div class="question-item">
+                <p class="statement">1. Sterile Operationshandschuhe zählen zu den Medizinprodukten.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q1_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q1_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q1_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">2. Nicht sterile Schutzhandschuhe sind grundsätzlich Medizinprodukte.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q2_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q2_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q2_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">3. Nitrilhandschuhe haben eine geringere Dehnbarkeit als Latexhandschuhe.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q3_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q3_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q3_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">4. Latexhandschuhe müssen bei Kontakt mit Zytostatika nicht gewechselt werden.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q4_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q4_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">5. Nach dem Ausziehen der Handschuhe kann auf eine Händedesinfektion verzichtet werden.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q5_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q5_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q5_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">6. Isoprenhandschuhe sind latexfrei, hochelastisch und für den Umgang mit Chemikalien geeignet.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q6_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q6_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q6_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">7. PVC-Handschuhe bieten eine sehr hohe Reißfestigkeit.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q7_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q7_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">8. Eine Latexallergie Typ I wird durch Eiweiße im Naturkautschuk ausgelöst.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q8_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q8_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q8_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">9. Eine Latexallergie Typ II tritt sofort nach Kontakt auf.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q9_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q9_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q9_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">10. Bei Patienten mit Latexallergie müssen alle latexhaltigen Produkte im OP ersetzt werden.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q10_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q10_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q10_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">11. Das Desinfizieren von Schutzhandschuhen ist generell verboten.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q11_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q11_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q11_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="question-item">
+                <p class="statement">12. Ein Doppelt-Tragen von OP-Handschuhen kann bei hohem Infektionsrisiko Pflicht sein.</p>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q12_richtig">
+                        <span class="checkbox-text">Richtig</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="q12_falsch">
+                        <span class="checkbox-text">Falsch</span>
+                    </label>
+                </div>
+                <div class="begründung-wrapper">
+                    <label class="begründung-label">Begründung:</label>
+                    <textarea name="q12_begründung" class="begründung-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="button-group no-print">
+                <button type="button" id="downloadBtn" class="btn-primary">Als PDF herunterladen</button>
+                <button type="reset" class="btn-secondary">Formular zurücksetzen</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
